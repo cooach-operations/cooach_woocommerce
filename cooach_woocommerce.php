@@ -19,6 +19,7 @@ if ( !class_exists('Cooach_WooCommerce_Helper')) {
             require_once( COOACH_WC_DIR . 'shortcodes.php');
             require_once( COOACH_WC_DIR . 'tender_based_pricing.php');
             require_once( COOACH_WC_DIR . 'check_user_data_on_order.php');
+            require_once( COOACH_WC_DIR . 'start_all_orders_on_hold.php');
             //require_once( COOACH_LOG_DIR . 'admin.php');
         }
     }
